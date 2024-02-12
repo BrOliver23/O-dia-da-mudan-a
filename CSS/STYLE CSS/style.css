@@ -5,3 +5,83 @@ body{
 h3{
     color: green;
 }
+
+/*Classes*/
+
+.paragraph{
+
+    color:aqua;
+    background-color: brown;
+    padding: 5px;
+
+}
+
+/*ID*/
+
+#exclusive-title {
+
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px;
+}
+
+/*Aula ordem*/
+
+h2 {
+
+border-bottom: 3px solid red;
+
+}
+
+.titulo {
+
+    border-bottom: 5px solid green;
+}
+
+#algum-titulo{
+
+border-bottom: 10px solid black;
+
+}
+
+/* Nome das Cores*/
+
+.color-name {
+
+color:rgb(90, 90, 184)
+
+}
+
+.hex {
+
+    color: #55a398;
+}
+
+.rgb {
+
+    color: rgb(5, 51, 8);
+
+}
+
+.rgba {
+
+    color: rgba(198, 95, 13, 0.3);
+
+}
+
+.hsl {
+
+    color: hsl(105, 56%, 50%);
+}
+
+.hsl2 {
+
+    color: hsl(230, 90%, 25%);
+
+}
+
+.blackground {
+
+    background-color: #000;
+    color: #fff;
+}
