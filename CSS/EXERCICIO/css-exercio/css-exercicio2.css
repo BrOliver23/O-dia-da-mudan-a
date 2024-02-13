@@ -1,0 +1,36 @@
+.border {
+
+border-bottom: 10px solid #909;
+padding: 25px;
+width: 400px;
+
+}
+
+.ol {
+
+background-color: rgb(166, 78, 166);
+color: #fff;
+width: 400px;
+padding: 25px;
+border-radius: 40px;
+
+}
+
+.h2 {
+
+    padding: 25px;
+    width: 400px;
+    background-color: #618;
+    color: #754;
+    border-radius: 90px;
+}
+
+#id {
+
+    padding: 25px;
+    width: 400px;
+    background-color: #123;
+    color: #321;
+    border-radius: 15px;
+
+}
