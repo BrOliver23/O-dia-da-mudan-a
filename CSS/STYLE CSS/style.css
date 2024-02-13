@@ -193,3 +193,109 @@ padding: 15px;
 border-radius: 15px;
 
 }
+
+.text-aligned {
+
+text-align: right;
+
+}
+
+.text-center {
+
+    text-align: center;
+}
+
+.underline {
+
+text-decoration: underline;
+
+}
+
+.line-through {
+
+    text-decoration: line-through;
+}
+
+.remove-underline {
+
+text-decoration: none;
+color: red;
+
+}
+
+
+.text-transform {
+
+text-transform: uppercase;
+
+}
+
+.minusculo {
+
+    text-transform: lowercase;
+}
+
+.letter {
+
+    letter-spacing: 5px;
+}
+
+.serif {
+
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+
+}
+
+.cursive {
+        font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+
+/* Estilo de fonte */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.weight {
+    font-weight: 800;
+}
+
+.size {
+    font-size: 16px;
+}
+
+.div {
+    display: inline-block;
+}
+
+.span {
+    display: block;
+}
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #653;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+
+}
