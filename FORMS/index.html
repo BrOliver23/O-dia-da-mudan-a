@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <h2>Formulários HTML</h2>
+<!-- Promeiro formulário e atributos-->
+    <form action="register.php" method="GET">
+    <div>
+        <label >Nome:</label>
+        <input type="text">
+    </div>
+<!-- Atributo name -->
+    <div>
+        <!-- Atribito label -->
+        <label for="age">Idade:</label>
+        <input type="text" name="age">
+    </div>
+    <!-- Select -->
+    <div>
+        <label for="job">Selecione a sua profissão:</label>
+        <select name="job">
+            <option value="tester">Tester/QA</option> 
+            <option value="devops">DevOps</option>
+            <option value="programador" selected>Programador</option>
+        </select>
+    </div>
+    <!-- Atributo selected -->
+    <div>
+        <label for="contract">Você leu os termos do contrato</label>
+        <select name="contract">
+            <option value="yes">Sim</option>
+            <option value="no" selected>Não</option>
+        </select>
+    </div>
+    <!-- Multiplas opções -->
+    <div>
+        <label for="items">Selecione os itens desejados:</label>
+        <select name="items" multiple>
+            <option value="pera">Pera</option>
+            <option value="feijao">Feijão</option>
+            <option value="arroz">Arroz</option>
+            <option value="milho">Milho</option>
+        </select>
+    </div>
+    <!-- Textarea -->
+    <div>
+        <label for="comment">Escreva abaixo o que você achou do post:</label>
+        <textarea name="comment" ></textarea>
+    </div>
+    <!-- Fieldsed e legend -->
+    <fieldset>
+        <legend>Preencha as suas informações:</legend>
+        <label for="firstname">Nome:</label>
+        <input type="text" name="firstname">
+        <label for="lastname">Sobrenome:</label>
+        <input type="text" name="lastname">
+    </fieldset>
+    <!-- Envio de form -->
+    <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
