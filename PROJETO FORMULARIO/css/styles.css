@@ -59,7 +59,7 @@ textarea {
     top: -62px;
 }
 
-/* Form header */
+Form header
 .form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
@@ -94,10 +94,6 @@ textarea {
     color: #d80835;
 }
 
-.box-input {
-    margin-bottom: 35px;
-}
-
 .block {
     display: block;
 }
@@ -114,6 +110,16 @@ textarea {
 
 .box-input {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.box-input input, textarea {
+    width: 100%;
+}
+
+.box-input-radio input {
+    width: 2%;
+    display: inline-block;
 }
 
 .btn-submit {
@@ -126,10 +132,13 @@ textarea {
     text-transform: uppercase;
     transition: 0.5s;
 }
+
 .btn-submit:hover {
     background-color: #fff;
     color: #673ab7;
     border-color: #673ab7;
 }
 
-
+.opcional-list {
+    list-style: none;
+}
