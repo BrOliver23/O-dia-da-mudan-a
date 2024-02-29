@@ -124,9 +124,38 @@
                                 <label for="reverse-camera">Câmera de ré</label>
                             </li>
                            </ul>
-
+                   
+                    <div class="optional-box">
+                       <ul class="opcional-list">
+                        <li>
+                            <input type="checkbox" name="lane_assist" id="optional[]" value="lane_assist">
+                            <label for="lane_assist">Assistente de pista</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="keyless" id="optional[]" value="keyless">
+                            <label for="keyless">Partida keyless</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="smartphone" id="optional[]" value="smartphone">
+                            <label for="smartphone">Integração com o celular</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="leather_seat" id="optional[]" value="leather_seat">
+                            <label for="leather_seat">Banco de couro</label>
+                        </li>
+                       </ul>
                     </div>
-                <input type="submit" value="Enviar" />
+                       <div class="box-input">
+                        <p>Fotos do carro: <span class="required-field">*</span></p>
+                        <input type="file" multiple 
+                        accept="image/jpg"
+                        id="images"
+                        name="images"
+                        required />
+                       </div>
+
+                    
+                <input type="submit" value="Enviar" class="btn-submit"/>
             </form>
             </div>
         </div>
